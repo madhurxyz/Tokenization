@@ -7,3 +7,6 @@ if __name__ == '__main__':
         filename = sys.argv[1]
         source = open(filename).read()
         tokens = tokenize(source)
+        print(tokens)
+    else:
+        print('No source text filename given as argument')
