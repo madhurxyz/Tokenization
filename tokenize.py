@@ -6,4 +6,4 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         filename = sys.argv[1]
         source = open(filename).read()
-        
+        tokens = tokenize(source)
