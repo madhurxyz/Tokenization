@@ -2,6 +2,7 @@ def tokenize(text):
     token = text.split()
     tokens = []
     for t in token:
+        tokens.append(t)
     return tokens
 
 if __name__ == '__main__':
