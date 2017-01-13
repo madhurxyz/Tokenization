@@ -1,5 +1,7 @@
 def tokenize(text):
-    return text
+    token = text.split()
+    tokens = []
+    return tokens
 
 if __name__ == '__main__':
     import sys
